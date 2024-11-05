@@ -1,3 +1,4 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form-container" }) do |f| %>
 <h2 class="text-center">新規登録</h2>
 
 <div class="signup-container">
@@ -33,6 +34,7 @@
   <% end %>
 
   <div class="text-center mt-3">
-    <%= render "devise/shared/links" %>
+    <%= link_to "ログイン", new_user_session_path %>
   </div>
 </div>
+<% end %>
