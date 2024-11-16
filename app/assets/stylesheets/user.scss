@@ -15,6 +15,21 @@ form {
   box-sizing: border-box;
 }
 
+/* フォーム全体を囲むコンテナのスタイル */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* テキスト中央揃えのスタイル */
+.text-center {
+  text-align: center;
+}
+
 /* フォーム内のラベル */
 form label {
   font-weight: bold;
@@ -46,4 +61,14 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #006400; /* ダークグリーン */
+}
+
+/* リンクボタンのスタイル */
+.btn-link {
+  color: #007bff; /* ブルー */
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
 }
